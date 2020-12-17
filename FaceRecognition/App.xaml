@@ -4,6 +4,13 @@
              xmlns:local="clr-namespace:FaceRecognition"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+       
+            <Style TargetType="{x:Type Button}">
+                <Setter Property="Control.Margin" Value="10"/>
+                <Setter Property="Control.Background" Value="#868686"/>
+                <Setter Property="Control.Foreground" Value="Black"/>
+                <Setter Property="Control.Width" Value="100"/>
+            </Style>
+        
     </Application.Resources>
 </Application>
